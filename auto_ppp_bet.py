@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from streamlit_gsheets import GSheetsConnection #type: ignore
+from streamlit_gsheets import GSheetsConnection
 
 # --- Page Configuration ---
 st.set_page_config(page_title="NBA Live PPP Tracker", page_icon="🏀", layout="centered")
